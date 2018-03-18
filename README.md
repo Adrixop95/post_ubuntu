@@ -16,6 +16,7 @@ Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże ap
 	- Netbeans
 	- Virtualbox
 	- neofetch
+	- Steam
 
 - Instaluje aplikacje dpkg:
 	- Google Chrome

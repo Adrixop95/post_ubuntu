@@ -28,7 +28,7 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 
 #Install packages
 sudo apt-get update
-sudo apt-get install git vim nano htop vlc spotify-client openjdk-8-jre openjdk-8-jdk python-pip netbeans virtualbox neofetch -y
+sudo apt-get install git vim nano htop vlc spotify-client openjdk-8-jre openjdk-8-jdk python-pip netbeans virtualbox neofetch steam -y
 
 #Python-pip update and install packages
 sudo pip install pip --upgrade
