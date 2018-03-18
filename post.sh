@@ -6,6 +6,7 @@
 #Update and upgrade everything.
 sudo apt-get update
 sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
 
 #Prepare folder for downloaded packeges
 cd ~/Downloads
