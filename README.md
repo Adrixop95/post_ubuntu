@@ -28,7 +28,8 @@ Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże ap
 	- speedtest-cli
 
 ### Testowane na:
-- Xubuntu 16.04
+- Xubuntu 16.04.4 LTS
+- Ubuntu 17.04.1
 
 <br></br>
 **Created with ♥**
