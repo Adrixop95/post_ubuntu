@@ -29,7 +29,7 @@ Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże ap
 	- speedtest-cli
 
 ### Pobranie oraz uruchomienie skryptu za pomocą "wget"
-> $ wget -O post.sh goo.gl/ssqCkt 
+> $ wget -O post.sh goo.gl/Awb8es
 
 > $ chmod +x post.sh
 
