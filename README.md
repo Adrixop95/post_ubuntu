@@ -27,6 +27,9 @@ Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże ap
 - Instaluje paczki python-pip:
 	- speedtest-cli
 
+### "Szybkie" pobranie za pomocą wget
+> $ wget -O post.sh goo.gl/f55p6H && chmod +x post.sh
+
 ### Testowane na:
 - Xubuntu 16.04.4 LTS
 - Ubuntu 17.04.1
