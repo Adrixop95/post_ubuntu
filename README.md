@@ -2,6 +2,7 @@
 Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże apt oraz paczkach deb do pracy jednym skryptem.
 ### Co instaluje skrypt?
 - Aktualizuje system (apt-get update, upgrade)
+
 - Instaluje aplikacje apt-get (różne repozytoria):
 	- git
 	- vim
@@ -15,11 +16,21 @@ Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże ap
 	- Netbeans
 	- Virtualbox
 	- neofetch
+
 - Instaluje aplikacje dpkg:
 	- Google Chrome
 	- Discord
 	- Atom
 	- Skype
 	- Mailspring
+
 - Instaluje paczki python-pip:
 	- speedtest-cli
+
+### Testowane na:
+- Xubuntu 16.04
+
+<br></br>
+**Created with ♥**
+
+by Adrian Rupala
