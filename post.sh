@@ -47,7 +47,7 @@ mkdir ~/Documents/git
 mkdir ~/Pictures/wallpapers
 cd ~/Pictures/wallpapers
 wget -q -O unsplash_wallpaper.jpg https://unsplash.it/1920/1080/?random
-gsettings set org.gnome.desktop.background picture-uri file://$PWD/Pictures/wallpapers/unsplash_wallpaper.jpg
+gsettings set org.gnome.desktop.background picture-uri file://$PWD/unsplash_wallpaper.jpg
 cd ~/
 
 #Cleanup
