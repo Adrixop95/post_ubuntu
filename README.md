@@ -27,9 +27,19 @@ Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże ap
 
 - Instaluje paczki python-pip:
 	- speedtest-cli
+- Usuwa pakiety/aplikacje:
+	- firefox 
+	- thunderbird 
+	- rhytmbox 
+	- gnome-mahjongg 
+	- gnome-mines 
+	- gnome-sudoku 
+	- aisleriot
+- Ustawia losową tapetę ze strony Unsplash o rozdzielczości 1920x1080
+- Czyści pozostałości i restartuje urządzenie
 
 ### Pobranie oraz uruchomienie skryptu za pomocą "wget"
-> $ wget -O post.sh goo.gl/Awb8es
+> $ wget -O post.sh goo.gl/cVudPt
 
 > $ chmod +x post.sh
 
