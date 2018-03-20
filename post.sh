@@ -40,7 +40,19 @@ cd ~/Downloads/post_download
 sudo dpkg -i *.deb
 sudo apt-get install -f -y
 
+#Create git folder on Documents
+mkdir ~/Documents/git
+
+#Create wallpaper folder and set random wallpaper from Unsplash
+mkdir ~/Pictures/wallpapers
+cd ~/Pictures/wallpapers
+wget -q -O unsplash_wallpaper.jpg https://unsplash.it/1920/1080/?random
+gsettings set org.gnome.desktop.background picture-uri file://$PWD/Pictures/wallpapers/unsplash_wallpaper.jpg
+cd ~/
+
 #Cleanup
 sudo rm -rf ~/Downloads/post_download
+sudo apt-get purge firefox thunderbird rhytmbox gnome-mahjongg gnome-mines gnome-sudoku aisleriot
 sudo apt-get autoremove
 sudo apt-get clean
+sudo reboot now
