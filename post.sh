@@ -52,7 +52,7 @@ cd ~/
 
 #Cleanup
 sudo rm -rf ~/Downloads/post_download
-sudo apt-get purge firefox thunderbird rhytmbox gnome-mahjongg gnome-mines gnome-sudoku aisleriot
-sudo apt-get autoremove
-sudo apt-get clean
+sudo apt-get purge firefox thunderbird rhytmbox gnome-mahjongg gnome-mines gnome-sudoku aisleriot -y
+sudo apt-get autoremove -y
+sudo apt-get clean -y
 sudo reboot now
