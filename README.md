@@ -21,7 +21,7 @@ Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże ap
 - Instaluje aplikacje dpkg:
 	- Google Chrome
 	- Discord
-	- Atom
+	- Visual Studio Code
 	- Skype
 	- Mailspring
 
