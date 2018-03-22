@@ -16,7 +16,6 @@ cd post_download
 #Download deb packages
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget https://dl.discordapp.net/apps/linux/0.0.4/discord-0.0.4.deb
-wget https://github.com/atom/atom/releases/download/v1.25.0/atom-amd64.deb
 wget https://go.skype.com/skypeforlinux-64.deb
 wget https://github.com/Foundry376/Mailspring/releases/download/1.1.5/mailspring-1.1.5-amd64.deb
 
@@ -26,10 +25,14 @@ cd ~/
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
 sudo add-apt-repository ppa:dawidd0811/neofetch -y
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+
 
 #Install packages
 sudo apt-get update
-sudo apt-get install git vim nano htop vlc spotify-client openjdk-8-jre openjdk-8-jdk python-pip netbeans virtualbox neofetch steam -y
+sudo apt-get install code git vim nano htop vlc spotify-client openjdk-8-jre openjdk-8-jdk python-pip netbeans virtualbox neofetch steam -y
 
 #Python-pip update and install packages
 sudo pip install pip --upgrade
