@@ -23,19 +23,17 @@ Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże ap
 	- Discord
 	- Visual Studio Code
 	- Skype
-	- Mailspring
 
 - Instaluje paczki python-pip:
 	- speedtest-cli
 - Usuwa pakiety/aplikacje:
-	- firefox 
-	- thunderbird 
+	- firefox  
 	- rhytmbox 
 	- gnome-mahjongg 
 	- gnome-mines 
 	- gnome-sudoku 
 	- aisleriot
-- Ustawia losową tapetę ze strony Unsplash o rozdzielczości 1920x1080
+- Ustawia losową tapetę ze strony Unsplash/Reddit WallpapersDump
 - Czyści pozostałości i restartuje urządzenie
 
 ### Pobranie oraz uruchomienie skryptu za pomocą "wget"
