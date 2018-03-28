@@ -24,11 +24,12 @@ cd ~/
 #Add keys and repos
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
 sudo add-apt-repository ppa:dawidd0811/neofetch -y
+sudo add-apt-repository ppa:sunderme/texstudio -y
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 
 #Install packages
 sudo apt-get update
-sudo apt-get install git vim nano htop vlc redshift redshift-gtk spotify-client openjdk-8-jre openjdk-8-jdk python-pip netbeans virtualbox neofetch steam -y
+sudo apt-get install git vim nano htop vlc redshiftb texlive-full texmaker texstudio redshift-gtk spotify-client openjdk-8-jre openjdk-8-jdk python-pip netbeans virtualbox neofetch steam -y
 
 #Python-pip update and install packages
 sudo pip install pip --upgrade
