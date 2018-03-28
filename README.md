@@ -17,6 +17,9 @@ Przygotowuje Ubuntu oraz inne dystrybucje GNU/Linux bazujące na menadżedże ap
 	- Virtualbox
 	- neofetch
 	- Steam
+	- texlive-full
+	- texmaker
+	- texstudio
 
 - Instaluje aplikacje dpkg:
 	- Google Chrome

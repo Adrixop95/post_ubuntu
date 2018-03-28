@@ -16,7 +16,6 @@ cd post_download
 #Download deb packages
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget https://dl.discordapp.net/apps/linux/0.0.4/discord-0.0.4.deb
-wget https://go.skype.com/skypeforlinux-64.deb
 wget https://az764295.vo.msecnd.net/stable/79b44aa704ce542d8ca4a3cc44cfca566e7720f1/code_1.21.1-1521038896_amd64.deb
 
 cd ~/
@@ -29,7 +28,11 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 
 #Install packages
 sudo apt-get update
-sudo apt-get install git vim nano htop vlc redshiftb texlive-full texmaker texstudio redshift-gtk spotify-client openjdk-8-jre openjdk-8-jdk python-pip netbeans virtualbox neofetch steam -y
+<<<<<<< HEAD
+sudo apt-get install git vim nano htop vlc redshift texlive-full texmaker texstudio redshift-gtk spotify-client openjdk-8-jre openjdk-8-jdk python-pip netbeans virtualbox neofetch steam -y
+=======
+sudo apt-get install git vim nano htop vlc clang redshift redshift-gtk spotify-client openjdk-8-jre openjdk-8-jdk python-pip netbeans virtualbox neofetch steam -y
+>>>>>>> fc755673d7c3f8664cc62b9db9203dbfddd1f6ba
 
 #Python-pip update and install packages
 sudo pip install pip --upgrade
@@ -53,7 +56,7 @@ cd ~/
 
 #Cleanup
 sudo rm -rf ~/Downloads/post_download
-sudo apt-get purge firefox rhythmbox gnome-mahjongg gnome-mines gnome-sudoku aisleriot -y
+sudo apt-get purge rhythmbox gnome-mahjongg gnome-mines gnome-sudoku aisleriot -y
 sudo apt-get autoremove -y
 sudo apt-get clean -y
 sudo reboot now
